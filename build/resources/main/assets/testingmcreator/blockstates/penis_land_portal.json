@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "testingmcreator:block/penis_land_portal_ew"
+    },
+    "axis=x": {
+      "model": "testingmcreator:block/penis_land_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "testingmcreator:penis_land"
+    },
+    "title": {
+      "translate": "advancements.enter_in_penis_land.title"
+    },
+    "description": {
+      "translate": "advancements.enter_in_penis_land.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_in_penis_land_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "testingmcreator:penis_land"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 69,
+    "recipes": [
+      "testingmcreator:easy_diamond"
+    ]
+  },
+  "parent": "testingmcreator:sit_down_on_penis"
+}

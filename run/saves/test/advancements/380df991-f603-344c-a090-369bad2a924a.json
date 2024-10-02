@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-02 19:13:09 +0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2024-10-02 19:13:49 +0500",
+      "minecraft:plains": "2024-10-02 19:13:11 +0500"
+    },
+    "done": false
+  },
+  "testingmcreator:enter_in_penis_land": {
+    "criteria": {
+      "enter_in_penis_land_0": "2024-10-02 19:13:49 +0500"
+    },
+    "done": true
+  },
+  "testingmcreator:sit_down_on_penis": {
+    "criteria": {
+      "sit_down_on_penis_0": "2024-10-02 19:13:20 +0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

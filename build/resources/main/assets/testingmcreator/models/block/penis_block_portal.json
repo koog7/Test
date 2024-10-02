@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testingmcreator:block/penistexture",
+    "up": "testingmcreator:block/penistexture",
+    "north": "testingmcreator:block/penistexture",
+    "east": "testingmcreator:block/penistexture",
+    "south": "testingmcreator:block/penistexture",
+    "west": "testingmcreator:block/penistexture",
+    "particle": "testingmcreator:block/penistexture"
+  },
+  "render_type": "solid"
+}

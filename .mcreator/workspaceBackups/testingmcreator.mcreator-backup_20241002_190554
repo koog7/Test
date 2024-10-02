@@ -1,0 +1,128 @@
+{
+  "mod_elements": [
+    {
+      "name": "EasyDiamond",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "easy_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/testingmcreator/recipes/easy_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "Semen",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testingmcreator/fluid/types/SemenFluidType.java",
+          "src/main/java/net/mcreator/testingmcreator/block/SemenBlock.java",
+          "src/main/resources/assets/testingmcreator/blockstates/semen.json",
+          "src/main/resources/assets/testingmcreator/models/item/semen_bucket.json",
+          "src/main/resources/assets/testingmcreator/models/block/semen.json",
+          "src/main/java/net/mcreator/testingmcreator/fluid/SemenFluid.java",
+          "src/main/java/net/mcreator/testingmcreator/item/SemenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TestItems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Penis",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/testingmcreator/models/block/penis.json",
+          "src/main/java/net/mcreator/testingmcreator/block/PenisBlock.java",
+          "src/main/resources/data/testingmcreator/loot_tables/blocks/penis.json",
+          "src/main/resources/assets/testingmcreator/blockstates/penis.json",
+          "src/main/resources/assets/testingmcreator/models/item/penis.json"
+        ]
+      }
+    },
+    {
+      "name": "SitDownOnPenis",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sit_down_on_penis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/testingmcreator/advancements/sit_down_on_penis.json"
+        ]
+      }
+    },
+    {
+      "name": "PenisBlockPortal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis_block_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/testingmcreator/loot_tables/blocks/penis_block_portal.json",
+          "src/main/resources/assets/testingmcreator/models/item/penis_block_portal.json",
+          "src/main/resources/assets/testingmcreator/blockstates/penis_block_portal.json",
+          "src/main/java/net/mcreator/testingmcreator/block/PenisBlockPortalBlock.java",
+          "src/main/resources/assets/testingmcreator/models/block/penis_block_portal.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Semen"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.testingmcreator.semen": "Ведро кончи",
+      "item.testingmcreator.semen_bucket": "Ведро кончи",
+      "item_group.testingmcreator.test_items": "Test Items",
+      "advancements.sit_down_on_penis.descr": "Норм присел на пенис",
+      "block.testingmcreator.penis_block_portal": "Блок яйца портала",
+      "advancements.sit_down_on_penis.title": "Sit Down On Penis",
+      "fluid.testingmcreator.semen": "Ведро кончи",
+      "block.testingmcreator.penis": "Penis"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "testingmcreator",
+    "modName": "TestingMCreator",
+    "version": "1.0.0",
+    "author": "Ryan Gosling, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.testingmcreator"
+  },
+  "mcreatorVersion": 202400232117
+}
